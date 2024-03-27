@@ -1,0 +1,400 @@
+@font-face {
+  font-family: neue power;
+  src: url(./NeuePower-Bold.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.5vw 3.5vw;
+  font-family: neue power;
+}
+
+#nav #middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5vw;
+}
+#nav #middle a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav button {
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0.9vw;
+  background-color: #e95824;
+}
+
+#body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3.5vw;
+  font-family: neue power;
+}
+
+#body1 h1 {
+  font-size: 4vw;
+}
+#body1 h3 {
+  font-size: 2vw;
+  margin-top: 35px;
+}
+
+#body2 {
+  width: 500px;
+  height: 250px;
+  background-color: #ff7732;
+  border: 1px solid #ff7732;
+  border-radius: 20px;
+}
+#bodypart1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3vw;
+  gap: 50px;
+  color: white;
+}
+#bodypart2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3vw;
+  gap: 50px;
+  color: white;
+}
+
+#bodypart button {
+  margin-top: 40px;
+  width: 20vw;
+  background-color: #e95825;
+  padding: 2vw;
+  border: 1px solid #e95825;
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+#page2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3.5vw;
+  overflow: hidden;
+  gap: 20px;
+}
+#page2 img {
+  height: 27vw;
+}
+
+#page3 {
+  font-family: neue power;
+  background-color: #242424;
+  width: 93%;
+  height: 600px;
+  margin: 0 3.5vw;
+  color: white;
+  border: 1px solid #242424;
+  border-radius: 50px;
+  position: relative;
+}
+
+#page3 h1 {
+  padding-left: 7vw;
+  width: 100%;
+  font-size: 5vw;
+  border-bottom: 3px solid #989696;
+  margin-top: 50px;
+}
+
+#fonts #font2 h2 {
+  padding-left: 7vw;
+  font-size: 3vw;
+  line-height: 130px;
+  border-bottom: 2px solid #989696;
+  margin-right: 600px;
+}
+
+#font2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#fonts #image img {
+  position: absolute;
+  right: 80px;
+  top: 200px;
+  height: 20vw;
+  border-radius: 50px;
+}
+
+#page4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3.5vw;
+  font-family: neue power;
+}
+#page4 #project h1 {
+  font-size: 4vw;
+}
+
+#page4 #projct1 h3 {
+  width: 40vw;
+  font-size: 1.5vw;
+}
+
+#page4 #projct1 button {
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 190px;
+  border: 1px solid orange;
+  color: orange;
+  padding: 1vw;
+}
+#bottleinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding: 3.5vw;
+}
+
+#bottleinfo img {
+  height: 45vw;
+  border-radius: 50px;
+}
+#bottleimage1 img {
+  height: 22.5vw;
+  width: 55vw;
+}
+
+#bottleimage1 button {
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 700px;
+  border: 1px solid orange;
+  color: orange;
+  padding: 1vw;
+}
+
+#Work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: neue power;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3vw;
+}
+
+#Work h1 {
+  font-size: 5vw;
+}
+#Work h4 {
+  font-size: 2vw;
+  margin-top: 30px;
+}
+
+#research {
+  /* background-color: black; */
+  margin: 3.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 22vh;
+  font-family: neue power;
+}
+#research1 {
+  height: 200px;
+  background-color: #ff7732;
+  width: 550px;
+  border-radius: 20px;
+}
+
+#research1 h1 {
+  color: white;
+  margin-left: 30px;
+  font-size: 4vw;
+}
+
+#research2 h1 {
+  height: 200px;
+  background-color: #ff7732;
+  width: 550px;
+  border-radius: 20px;
+  color: white;
+  font-size: 4vw;
+  padding-left: 30px;
+}
+
+#wireframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3.5vw;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: neue power;
+}
+
+#wireframe1 {
+  border-radius: 20px;
+}
+
+#wireframe #wireframe1 {
+  width: 500px;
+  background-color: aliceblue;
+  background-color: #f6f6f6;
+}
+#wireframe #wireframe1 h1 {
+  margin-left: 10px;
+  height: 200px;
+  width: 550px;
+  font-size: 4vw;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#wireframe h3 {
+  width: 20vw;
+}
+
+#approval {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 3.5vw;
+  font-family: neue power;
+  margin-top: -50px;
+}
+
+#approval1 {
+  width: 500px;
+  background-color: aliceblue;
+  background-color: #f6f6f6;
+  height: 200px;
+  border-radius: 20px;
+}
+#approval1 h1 {
+  width: 500px;
+  margin-left: 20px;
+  padding-top: 30px;
+  font-size: 3vw;
+  height: 200px;
+}
+
+#approval2 {
+  width: 500px;
+  background-color: aliceblue;
+  background-color: #f6f6f6;
+  height: 200px;
+  border-radius: 20px;
+}
+#approval2 h1 {
+  height: 200px;
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 3vw;
+}
+
+#last {
+  padding: 3.5vw;
+  background-color: #242424;
+  font-family: neue power;
+  color: white;
+  border-radius: 20px;
+  margin: 3.5vw;
+}
+#last button {
+  background-color: black;
+  border-radius: 50px;
+  border: 1px solid orange;
+  color: orange;
+  padding: 1vw;
+  margin: 30px 0px;
+}
+#logo i {
+  font-size: 2vw;
+  line-height: 50px;
+}
+
+#wireframe #wireframe1 h1:hover {
+  background-color: #ff7732;
+  color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  font-size: 5vw;
+}
+
+#approval #approval1 h1:hover {
+  background-color: #ff7732;
+  color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  font-size: 5vw;
+}
+
+#approval #approval2 h1:hover {
+  background-color: #ff7732;
+  width: 500px;
+  color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+  font-size: 5vw;
+  height: 200px;
+}
